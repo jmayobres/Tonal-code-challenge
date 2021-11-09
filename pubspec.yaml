@@ -1,0 +1,32 @@
+name: metrics_bubble
+description: Metrics Bubble Package
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.23.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: packages/metrics_bubble/assets/fonts/helvetica/Helvetica-Bold.ttf
+          weight: 700
+        - asset: packages/metrics_bubble/assets/fonts/helvetica/Helvetica.ttf
+    - family: League Gothic
+      fonts:
+        - asset: packages/metrics_bubble/assets/fonts/legal_gothic/league-gothic.regular.ttf
+  assets:
+    - packages/metrics_bubble/assets/images/graph.svg
